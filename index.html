@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое Сергей Козленко</title>
+    <link rel="stylesheet" href="./css/normalise.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="header ">
+    <div class="ticker header__top">
+        <div class="ticker__text">
+            <span class="ticker__text-span">  🇬🇧 Special offer + Free Delivery 2-4 days in UK  </span>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="header__bottom flex">
+            <div class="header__bottom-logo">
+                <a class="logo__base" href="#"><img src="./img/logo__base.png" alt="Логотип" ></a>
+                <a class="logo__burger" href="#"><img src="./img/logo__burger.png" alt="Логотип" ></a>
+            </div>
+            <div class="burger-menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
+            <nav class="nav-menu" id="navMenu" >
+                <ul class=" flex list-reset header__bottom-nav">
+                    <li class="flex header__bottom-nav-item">
+                        <a class="header-bottom__link" href="">Go to product page</a>
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.092774 17.1239L0.74673 17.8761C0.779774 17.9136 0.820099 17.9439 0.865227 17.9652C0.910355 17.9865 0.959334 17.9983 1.00916 17.9998C1.05898 18.0014 1.1086 17.9927 1.15496 17.9743C1.20132 17.9559 1.24345 17.9281 1.27876 17.8928L9.89102 9.21845C9.92554 9.18424 9.95295 9.14347 9.97166 9.09852C9.99036 9.05357 10 9.00533 10 8.9566C10 8.90787 9.99036 8.85963 9.97166 8.81468C9.95295 8.76973 9.92554 8.72897 9.89102 8.69476L1.30647 0.109573C1.23869 0.0404447 1.14646 0.00106489 1.04991 2.12365e-05C0.953358 -0.00102242 0.860312 0.0363557 0.791066 0.104003L0.126026 0.766972C0.05726 0.835112 0.0180864 0.927823 0.0170482 1.02488C0.0160101 1.12194 0.0531903 1.21548 0.120483 1.28509L7.45808 8.73933C7.52538 8.80894 7.56256 8.90247 7.56152 8.99953C7.56048 9.09659 7.52131 9.1893 7.45254 9.25744L0.109399 16.617C0.0423956 16.6832 0.00329482 16.7727 0.000199534 16.8671C-0.00289575 16.9615 0.0302525 17.0535 0.092774 17.1239Z" fill="#464646"/>
+                        </svg>
+                    </li>
+                    <li class="flex header__bottom-nav-item">
+                        <a class="header-bottom__link" href="">Track your order</a>
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.092774 17.1239L0.74673 17.8761C0.779774 17.9136 0.820099 17.9439 0.865227 17.9652C0.910355 17.9865 0.959334 17.9983 1.00916 17.9998C1.05898 18.0014 1.1086 17.9927 1.15496 17.9743C1.20132 17.9559 1.24345 17.9281 1.27876 17.8928L9.89102 9.21845C9.92554 9.18424 9.95295 9.14347 9.97166 9.09852C9.99036 9.05357 10 9.00533 10 8.9566C10 8.90787 9.99036 8.85963 9.97166 8.81468C9.95295 8.76973 9.92554 8.72897 9.89102 8.69476L1.30647 0.109573C1.23869 0.0404447 1.14646 0.00106489 1.04991 2.12365e-05C0.953358 -0.00102242 0.860312 0.0363557 0.791066 0.104003L0.126026 0.766972C0.05726 0.835112 0.0180864 0.927823 0.0170482 1.02488C0.0160101 1.12194 0.0531903 1.21548 0.120483 1.28509L7.45808 8.73933C7.52538 8.80894 7.56256 8.90247 7.56152 8.99953C7.56048 9.09659 7.52131 9.1893 7.45254 9.25744L0.109399 16.617C0.0423956 16.6832 0.00329482 16.7727 0.000199534 16.8671C-0.00289575 16.9615 0.0302525 17.0535 0.092774 17.1239Z" fill="#464646"/>
+                        </svg>
+                    </li>
+                    <li class="flex header__bottom-nav-item">
+                        <a class="header-bottom__link" href="">Contact us</a>
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.092774 17.1239L0.74673 17.8761C0.779774 17.9136 0.820099 17.9439 0.865227 17.9652C0.910355 17.9865 0.959334 17.9983 1.00916 17.9998C1.05898 18.0014 1.1086 17.9927 1.15496 17.9743C1.20132 17.9559 1.24345 17.9281 1.27876 17.8928L9.89102 9.21845C9.92554 9.18424 9.95295 9.14347 9.97166 9.09852C9.99036 9.05357 10 9.00533 10 8.9566C10 8.90787 9.99036 8.85963 9.97166 8.81468C9.95295 8.76973 9.92554 8.72897 9.89102 8.69476L1.30647 0.109573C1.23869 0.0404447 1.14646 0.00106489 1.04991 2.12365e-05C0.953358 -0.00102242 0.860312 0.0363557 0.791066 0.104003L0.126026 0.766972C0.05726 0.835112 0.0180864 0.927823 0.0170482 1.02488C0.0160101 1.12194 0.0531903 1.21548 0.120483 1.28509L7.45808 8.73933C7.52538 8.80894 7.56256 8.90247 7.56152 8.99953C7.56048 9.09659 7.52131 9.1893 7.45254 9.25744L0.109399 16.617C0.0423956 16.6832 0.00329482 16.7727 0.000199534 16.8671C-0.00289575 16.9615 0.0302525 17.0535 0.092774 17.1239Z" fill="#464646"/>
+                        </svg>
+                    </li>
+                    <li class="flex header__bottom-nav-item">
+                        <a class="header-bottom__link" href="">FAQs</a>
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.092774 17.1239L0.74673 17.8761C0.779774 17.9136 0.820099 17.9439 0.865227 17.9652C0.910355 17.9865 0.959334 17.9983 1.00916 17.9998C1.05898 18.0014 1.1086 17.9927 1.15496 17.9743C1.20132 17.9559 1.24345 17.9281 1.27876 17.8928L9.89102 9.21845C9.92554 9.18424 9.95295 9.14347 9.97166 9.09852C9.99036 9.05357 10 9.00533 10 8.9566C10 8.90787 9.99036 8.85963 9.97166 8.81468C9.95295 8.76973 9.92554 8.72897 9.89102 8.69476L1.30647 0.109573C1.23869 0.0404447 1.14646 0.00106489 1.04991 2.12365e-05C0.953358 -0.00102242 0.860312 0.0363557 0.791066 0.104003L0.126026 0.766972C0.05726 0.835112 0.0180864 0.927823 0.0170482 1.02488C0.0160101 1.12194 0.0531903 1.21548 0.120483 1.28509L7.45808 8.73933C7.52538 8.80894 7.56256 8.90247 7.56152 8.99953C7.56048 9.09659 7.52131 9.1893 7.45254 9.25744L0.109399 16.617C0.0423956 16.6832 0.00329482 16.7727 0.000199534 16.8671C-0.00289575 16.9615 0.0302525 17.0535 0.092774 17.1239Z" fill="#464646"/>
+                        </svg>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+</header>
+<main>
+    <section class="section_swiper" >
+        <div class="swiper " >
+            <div class="swiper-wrapper " >
+                <div class="swiper-slide phone__one">
+                    <div class="slide-wrapper">
+                        <div>
+                            <h1 class="phone__title">
+                                Tiny Phone 4G
+                            </h1>
+                            <p class="phone__text">
+                                Small Size, Huge Impact
+                            </p>
+                            <button class="phone__button btn-reset">
+                                <span class="actual-price">£ 3.00</span><span class="old-price"> £ 59.00</span>
+                            </button>
+                        </div>
+                        <img src="./img/phone_1.png" alt="phone1">
+                    </div>
+                </div>
+                <div class="swiper-slide phone__two">
+                    <div class="slide-wrapper">
+                        <div>
+                            <h1 class="phone__title ">
+                                Tiny Phone 4G
+                            </h1>
+                            <p class="phone__text">
+                                Small Size, Huge Impact
+                            </p>
+                            <button class="phone__button btn-reset ">
+                                <span class="actual-price ">£ 3.00</span><span class="old-price "> £ 59.00</span>
+                            </button>
+                        </div>
+                        <img src="./img/phone__2.png" alt="phone1">
+                    </div>
+
+                </div>
+                <div class="swiper-slide phone__three">
+                    <div class="slide-wrapper">
+                        <div>
+                            <h1 class="phone__title ">
+                                Tiny Phone 4G
+                            </h1>
+                            <p class="phone__text">
+                                Small Size, Huge Impact
+                            </p>
+                            <button class="phone__button btn-reset ">
+                                <span class="actual-price ">£ 3.00</span><span class="old-price "> £ 59.00</span>
+                            </button>
+                        </div>
+                        <img src="./img/phone-3.png" alt="phone1">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section class="container content">
+        <h2 class="content__title">
+            Introducing the New <span class="content__title-custom">Tiny Phone 4G</span>
+        </h2>
+        <img src="./img/content_img.png" alt="content image">
+    </section>
+    <section class="container shipping">
+        <h2 class="shipping__title">
+            Shipping & Returns
+        </h2>
+        <div class="accordion">
+            <div class="accordion-item ">
+                <div class="accordion-header flex ">
+                    <span class="accordion-header__title first">Free delivery in United Kingdom</span>
+                    <span class="arrow">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3186 10.9258L13.9036 10.4026C13.9328 10.3762 13.9564 10.3439 13.9729 10.3078C13.9895 10.2717 13.9986 10.2325 13.9999 10.1927C14.0011 10.1528 13.9943 10.1131 13.98 10.076C13.9657 10.0389 13.9441 10.0052 13.9166 9.97699L7.1699 3.08718C7.1433 3.05957 7.11159 3.03764 7.07663 3.02268C7.04167 3.00771 7.00414 3 6.96624 3C6.92835 3 6.89083 3.00771 6.85586 3.02268C6.8209 3.03764 6.7892 3.05957 6.76259 3.08718L0.0852234 9.95482C0.031457 10.009 0.00082829 10.0828 1.6553e-05 10.1601C-0.000795184 10.2373 0.0282767 10.3117 0.080891 10.3671L0.596534 10.8992C0.649532 10.9542 0.72164 10.9855 0.797132 10.9864C0.872623 10.9872 0.945373 10.9574 0.999515 10.9036L6.79725 5.03353C6.8514 4.9797 6.92414 4.94995 6.99964 4.95078C7.07513 4.95161 7.14724 4.98295 7.20023 5.03797L12.9243 10.9125C12.9758 10.9661 13.0455 10.9974 13.1189 10.9998C13.1923 11.0023 13.2638 10.9758 13.3186 10.9258Z" fill="#464646"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="accordion-content">
+                    <ul class="list-reset delivery-list flex" >
+                        <li class="delivery-item">
+                           <img src="./img/DHL.png" alt="DHL">
+                        </li>
+                        <li class="delivery-item">
+                            <img src="./img/DPD.png" alt="DPD">
+                        </li>
+                        <li class="delivery-item">
+                            <img src="./img/FedEx.png" alt="FedEX">
+                        </li>
+                        <li class="delivery-item">
+                            <img src="./img/UPS.png" alt="UPS">
+                        </li>
+                    </ul>
+                    <p class="accordion__text">
+                        All purchases are shipped from our warehouse in <strong>United Kingdom</strong>  and are fully insured with a tracking number. Tracked delivery between 2-4 days in <strong>United Kingdom</strong>  + Free Delivery.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header flex">
+                    <span class="accordion-header__title second">3 years warranty</span>
+                    <span class="arrow">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3186 10.9258L13.9036 10.4026C13.9328 10.3762 13.9564 10.3439 13.9729 10.3078C13.9895 10.2717 13.9986 10.2325 13.9999 10.1927C14.0011 10.1528 13.9943 10.1131 13.98 10.076C13.9657 10.0389 13.9441 10.0052 13.9166 9.97699L7.1699 3.08718C7.1433 3.05957 7.11159 3.03764 7.07663 3.02268C7.04167 3.00771 7.00414 3 6.96624 3C6.92835 3 6.89083 3.00771 6.85586 3.02268C6.8209 3.03764 6.7892 3.05957 6.76259 3.08718L0.0852234 9.95482C0.031457 10.009 0.00082829 10.0828 1.6553e-05 10.1601C-0.000795184 10.2373 0.0282767 10.3117 0.080891 10.3671L0.596534 10.8992C0.649532 10.9542 0.72164 10.9855 0.797132 10.9864C0.872623 10.9872 0.945373 10.9574 0.999515 10.9036L6.79725 5.03353C6.8514 4.9797 6.92414 4.94995 6.99964 4.95078C7.07513 4.95161 7.14724 4.98295 7.20023 5.03797L12.9243 10.9125C12.9758 10.9661 13.0455 10.9974 13.1189 10.9998C13.1923 11.0023 13.2638 10.9758 13.3186 10.9258Z" fill="#464646"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="accordion-content">
+                    <p class="accordion__text">
+                        Our product is guaranteed for 3 years from the date of your purchase.
+                    </p>
+                    <p class="accordion__text">
+                        For more information, please contact our team.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header flex">
+                    <span class="accordion-header__title third"> 100% money-back guarantee </span>
+                    <span class="arrow">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3186 10.9258L13.9036 10.4026C13.9328 10.3762 13.9564 10.3439 13.9729 10.3078C13.9895 10.2717 13.9986 10.2325 13.9999 10.1927C14.0011 10.1528 13.9943 10.1131 13.98 10.076C13.9657 10.0389 13.9441 10.0052 13.9166 9.97699L7.1699 3.08718C7.1433 3.05957 7.11159 3.03764 7.07663 3.02268C7.04167 3.00771 7.00414 3 6.96624 3C6.92835 3 6.89083 3.00771 6.85586 3.02268C6.8209 3.03764 6.7892 3.05957 6.76259 3.08718L0.0852234 9.95482C0.031457 10.009 0.00082829 10.0828 1.6553e-05 10.1601C-0.000795184 10.2373 0.0282767 10.3117 0.080891 10.3671L0.596534 10.8992C0.649532 10.9542 0.72164 10.9855 0.797132 10.9864C0.872623 10.9872 0.945373 10.9574 0.999515 10.9036L6.79725 5.03353C6.8514 4.9797 6.92414 4.94995 6.99964 4.95078C7.07513 4.95161 7.14724 4.98295 7.20023 5.03797L12.9243 10.9125C12.9758 10.9661 13.0455 10.9974 13.1189 10.9998C13.1923 11.0023 13.2638 10.9758 13.3186 10.9258Z" fill="#464646"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="accordion-content">
+                    <p class="accordion__text">
+                        If you're not satisfied with your purchase, we offer a 100% Money Back Guarantee.
+                    </p>
+                    <p class="accordion__text">
+                        No Questions Asked.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer__wrapper flex">
+        <div class="footer__logo">
+           <a class="logo__base" href="#"><img src="./img/logo__base.png" alt="Логотип" ></a>
+        </div>
+        <ul class="footer__list flex list-reset">
+            <li class="footer__item">Privacy Notice</li>
+            <li class="footer__item">Terms and conditions</li>
+            <li class="footer__item">Cookies</li>
+        </ul>
+        <p class="footer__text">
+            *Information is not a public offer
+            This site is not part of the Facebook or Facebook Inc. website. Also, this site is not endorsed by Facebook in any way FACEBOOK is a trademark of FACEBOOK, Inc. Facebook provides a platform for serving advertising, but the opinions and/or views expressed on this website are not representative of Facebook, Inc. Opinions and/or views expressed on our website's social media platforms, including but not limited to our blogs and Facebook pages, represent the thoughts of individual bloggers and online communities, and not necessarily those of our website or any of its business partners, affiliates or any of their respective officers, employees, staff or board members. The views and opinions expressed on these pages do not in any way reflect the opinions of the site on which they are published, other sites affiliated with the site, the personnel involved in the maintenance of the site or any member of the site. Any opinions or views expressed on this website's social media platforms are not representative of Facebook, Inc. Although our website makes reasonable efforts to monitor and/or moderate content posted on its social media platforms, we do not moderate all comments and cannot always respond to online inquiries in a timely manner. All new customers are entered into the raffle for the displayed campaign product. If you are the lucky winner, you will be contacted directly by email. This special offer includes a three-day trial to an affiliated service, after which the subscription fee will be thirty-three euros every fourteen days - automatically deducted from your credit card. If for any reason you are not satisfied with the service, you can cancel your account within three days. The service will renew every thirty days until cancelled. This campaign will expire on December 31 of this year. If you would like to participate without signing up for a three-day trial at Toolsandtoys, please email.
+        </p>
+        <button class="footer__button btn-reset">
+            Read less
+        </button>
+        <span class="footer__date">
+            © 2023 WhaleCo Inc.
+        </span>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
